@@ -4,5 +4,5 @@ from .import views
 
 urlpatterns=[
     path('keyboard/',views.keyboard),
-    path('message$',views.answer)
+    path('message',views.answer)
 ]
