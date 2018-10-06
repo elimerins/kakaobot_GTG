@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4d27204a-848c-494c-9f6d-49440f575cc2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kakaobotapp/urls.py" afterPath="$PROJECT_DIR$/kakaobotapp/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -154,6 +153,14 @@
       <option name="presentableId" value="Default" />
       <updated>1538809237430</updated>
     </task>
+    <task id="LOCAL-00001" summary="modify app/urls.py message to message$">
+      <created>1538847805249</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538847805249</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -182,6 +189,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modify app/urls.py message to message$" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify app/urls.py message to message$" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
