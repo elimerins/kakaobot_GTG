@@ -8,7 +8,14 @@ import json
 def keyboard(request):
     return JsonResponse({
         'type': 'buttons',
-        'buttons': ['오늘', '내일']
+        'buttons': ['사회과학대학',
+                    '경영대학',
+                    '법과대학',
+                    '공과대학',
+                    '예술대학',
+                    'IT대학',
+                    '생활과학대학'
+                    ]
     })
 
 
@@ -18,8 +25,8 @@ def answer(request):
     received_json_data = json.loads(json_str)
     datacontent = received_json_data['content']
 
-    if datacontent == '오늘':
-        today = "오늘 급식"
+    if datacontent == '사회과학대학':
+        today = "학과를 선택해주세요"
 
         return JsonResponse({
 
@@ -28,12 +35,13 @@ def answer(request):
             },
             'keyboard': {
                 'type': 'buttons',
-                'buttons': ['오늘', '내일']
+                'buttons': ['경제학과',
+                            '행정학과']
             }
 
         })
-    elif datacontent == '내일':
-        tomorrow = "내일 급식"
+    elif datacontent == 'IT대학':
+        tomorrow = "학과를 선택해주세요"
 
         return JsonResponse({
             'message': {
@@ -41,7 +49,8 @@ def answer(request):
             },
             'keyboard': {
                 'type': 'buttons',
-                'buttons': ['오늘', '내일']
+                'buttons': ['전자공학과',
+                            '컴퓨터공학과']
             }
 
         })
