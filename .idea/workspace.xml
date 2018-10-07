@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d27204a-848c-494c-9f6d-49440f575cc2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/activate" afterPath="$PROJECT_DIR$/bin/activate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/activate.csh" afterPath="$PROJECT_DIR$/bin/activate.csh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/activate.fish" afterPath="$PROJECT_DIR$/bin/activate.fish" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kakaobotapp/views.py" afterPath="$PROJECT_DIR$/kakaobotapp/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyvenv.cfg" afterPath="$PROJECT_DIR$/pyvenv.cfg" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,8 +28,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kakaobotapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+            <state relative-caret-position="376">
+              <caret line="64" column="20" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -242,8 +237,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kakaobotapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        <state relative-caret-position="376">
+          <caret line="64" column="20" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

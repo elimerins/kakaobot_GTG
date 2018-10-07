@@ -54,3 +54,18 @@ def answer(request):
             }
 
         })
+    elif datacontent=="전자공학과":
+        grade = "학년을 선택해주세요"
+
+        return JsonResponse({
+            'message': {
+                'text': grade
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': ['1',
+                            '2',
+                            '3']
+            }
+
+        })
