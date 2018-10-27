@@ -2,7 +2,8 @@ from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
 import json
-
+from kakaobotapp import lecturealgo
+import copy
 
 # Create your views here.
 def keyboard(request):
@@ -17,8 +18,8 @@ def keyboard(request):
                     '생활과학대학'
                     ]
     })
-
-
+major=''
+grade=''
 @csrf_exempt
 def answer(request):
     json_str = ((request.body).decode('utf-8'))
@@ -26,7 +27,6 @@ def answer(request):
     datacontent = received_json_data['content']
     datarestart='처음부터'
     choice_department='학과를 선택해주세요'
-
     if datacontent == '처음부터':
         choice_college = "단과대학을 선택해주세요"
 
@@ -89,9 +89,9 @@ def answer(request):
             }
 
         })
-    elif datacontent=="전자공학과":
+    elif datacontent=="컴퓨터공학과":
         grade = "학년을 선택해주세요"
-
+        major=copy.deepcopy(datacontent)
         return JsonResponse({
             'message': {
                 'text': grade
@@ -102,7 +102,42 @@ def answer(request):
                             '2',
                             '3',
                             '4',
-                            datarestart]
+                            datarestart
+                            ]
             }
 
+        })
+    elif datacontent=='2':
+        credit_range="학점 범위를 선택해주세요"
+        credit_rangelist=['9 ~ 12',
+                     '13 ~ 15',
+                     '16 ~ 18',]
+        grade=copy.deepcopy(datacontent)
+        return JsonResponse({
+            'message':{
+                'text':credit_range
+            },
+            'keyboard':{
+                'type':'buttons',
+                'buttons':[
+                     credit_rangelist[0],
+                     credit_rangelist[1],
+                     credit_rangelist[2],
+                     datarestart
+                ]
+            }
+        })
+    elif datacontent=='9 ~ 12':
+        waiting_message='잠시만 기다려주세요!'
+        list=lecturealgo.generator(9,12,major,grade)
+        return JsonResponse({
+            'message':{
+                'text':waiting_message
+            },
+            'keyboard':{
+                'type':'text',
+                'text':[
+                    list
+                ]
+            }
         })

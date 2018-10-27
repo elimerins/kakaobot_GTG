@@ -2,8 +2,917 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d27204a-848c-494c-9f6d-49440f575cc2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/_cffi_backend.cpython-36m-darwin.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/bindings/_constant_time.abi3.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/bindings/_openssl.abi3.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/bindings/_padding.abi3.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/.dylibs/libgcc_s.1.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/.dylibs/libgfortran.3.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/.dylibs/libopenblasp-r0.3.0.dev.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/.dylibs/libquadmath.0.dylib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/_dummy.cpython-36m-darwin.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-darwin.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/_operand_flag_tests.cpython-36m-darwin.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/_rational_tests.cpython-36m-darwin.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/_struct_ufunc_tests.cpython-36m-darwin.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/_umath_tests.cpython-36m-darwin.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/lib/libnpymath.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/multiarray.cpython-36m-darwin.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/data/astype_copy.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/data/recarray_from_file.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/umath.cpython-36m-darwin.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/fft/fftpack_lite.cpython-36m-darwin.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/data/py2-objarr.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/data/py2-objarr.npz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/data/py3-objarr.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/data/py3-objarr.npz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/data/python3.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/data/win64python2.npy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-darwin.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-darwin.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/random/mtrand.cpython-36m-darwin.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/f2py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kakaobotapp/lecture.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kakaobotapp/lecturealgo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kakaobotapp/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/PyMySQL-0.9.2.dist-info/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/PyMySQL-0.9.2.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/PyMySQL-0.9.2.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/PyMySQL-0.9.2.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto-0.24.0.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto-0.24.0.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto-0.24.0.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto-0.24.0.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto-0.24.0.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto-0.24.0.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/_elliptic_curve.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/_errors.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/_ffi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/_inet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/_int.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/_iri.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/_ordereddict.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/_perf/_big_num_ctypes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/_teletex_codec.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/_types.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/algos.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/cms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/core.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/crl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/csr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/keys.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/ocsp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/parser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/pdf.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/pem.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/pkcs12.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/tsp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/util.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/version.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/x509.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi-1.11.5.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi-1.11.5.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi-1.11.5.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi-1.11.5.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi-1.11.5.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi-1.11.5.dist-info/entry_points.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi-1.11.5.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi-1.11.5.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/_cffi_errors.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/_cffi_include.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/_embedding.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/api.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/backend_ctypes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/cffi_opcode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/commontypes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/cparser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/error.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/ffiplatform.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/lock.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/model.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/parse_c_type.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/recompiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/setuptools_ext.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/vengine_cpy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/vengine_gen.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cffi/verifier.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography-2.3.1.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography-2.3.1.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography-2.3.1.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography-2.3.1.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography-2.3.1.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/__about__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/exceptions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/fernet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/backends/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/backends/interfaces.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/backends/openssl/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/backends/openssl/aead.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/backends/openssl/backend.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/backends/openssl/ciphers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/backends/openssl/cmac.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/backends/openssl/decode_asn1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/backends/openssl/dh.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/backends/openssl/dsa.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/backends/openssl/ec.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/backends/openssl/encode_asn1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/backends/openssl/hashes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/backends/openssl/hmac.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/backends/openssl/rsa.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/backends/openssl/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/backends/openssl/x25519.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/backends/openssl/x509.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/bindings/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/bindings/openssl/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/bindings/openssl/_conditional.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/bindings/openssl/binding.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/asymmetric/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/asymmetric/dh.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/asymmetric/dsa.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/asymmetric/ec.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/asymmetric/padding.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/asymmetric/rsa.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/asymmetric/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/asymmetric/x25519.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/ciphers/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/ciphers/aead.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/ciphers/algorithms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/ciphers/base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/ciphers/modes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/cmac.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/constant_time.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/hashes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/hmac.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/kdf/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/kdf/concatkdf.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/kdf/hkdf.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/kdf/kbkdf.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/kdf/pbkdf2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/kdf/scrypt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/kdf/x963kdf.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/keywrap.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/mac.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/padding.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/serialization.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/twofactor/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/twofactor/hotp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/twofactor/totp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/hazmat/primitives/twofactor/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/x509/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/x509/base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/x509/certificate_transparency.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/x509/extensions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/x509/general_name.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/x509/name.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/cryptography/x509/oid.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna-2.7.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna-2.7.dist-info/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna-2.7.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna-2.7.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna-2.7.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna-2.7.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/codec.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/core.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/idnadata.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/intranges.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/package_data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/idna/uts46data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy-1.15.3.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy-1.15.3.dist-info/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy-1.15.3.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy-1.15.3.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy-1.15.3.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy-1.15.3.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/__config__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/_distributor_init.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/_globals.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/_import_tools.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/add_newdocs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/compat/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/compat/_inspect.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/compat/py3k.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/compat/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/compat/tests/test_compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/conftest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/_internal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/_methods.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/arrayprint.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/cversions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/defchararray.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/einsumfunc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/fromnumeric.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/function_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/generate_numpy_api.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/getlimits.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/__multiarray_api.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/__ufunc_api.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/_numpyconfig.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/arrayobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/arrayscalars.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/halffloat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/multiarray_api.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/ndarrayobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/ndarraytypes.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/noprefix.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/npy_3kcompat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/npy_common.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/npy_cpu.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/npy_endian.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/npy_interrupt.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/npy_math.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/npy_no_deprecated_api.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/npy_os.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/numpyconfig.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/old_defines.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/oldnumeric.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/ufunc_api.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/ufuncobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/include/numpy/utils.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/lib/npy-pkg-config/mlib.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/lib/npy-pkg-config/npymath.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/machar.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/memmap.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/numeric.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/numerictypes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/records.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/setup_common.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/shape_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/_locales.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_abc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_api.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_arrayprint.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_datetime.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_defchararray.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_deprecations.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_dtype.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_einsum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_errstate.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_extint128.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_function_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_getlimits.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_half.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_indexerrors.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_indexing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_item_selection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_longdouble.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_machar.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_mem_overlap.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_memmap.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_multiarray.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_nditer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_numeric.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_numerictypes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_print.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_records.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_regression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_scalar_ctors.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_scalarbuffer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_scalarinherit.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_scalarmath.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_scalarprint.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_shape_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_ufunc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_umath.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_umath_complex.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/tests/test_unicode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/core/umath_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/ctypeslib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/__config__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/__version__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/ccompiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/command/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/command/autodist.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/command/bdist_rpm.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/command/build.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/command/build_clib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/command/build_ext.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/command/build_py.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/command/build_scripts.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/command/build_src.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/command/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/command/config_compiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/command/develop.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/command/egg_info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/command/install.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/command/install_clib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/command/install_data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/command/install_headers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/command/sdist.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/conv_template.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/core.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/cpuinfo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/environment.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/exec_command.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/extension.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/fcompiler/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/fcompiler/absoft.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/fcompiler/compaq.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/fcompiler/g95.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/fcompiler/gnu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/fcompiler/hpux.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/fcompiler/ibm.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/fcompiler/intel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/fcompiler/lahey.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/fcompiler/mips.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/fcompiler/nag.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/fcompiler/none.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/fcompiler/pathf95.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/fcompiler/pg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/fcompiler/sun.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/fcompiler/vast.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/from_template.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/intelccompiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/lib2def.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/line_endings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/log.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/mingw/gfortran_vs2003_hack.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/mingw32ccompiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/misc_util.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/msvc9compiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/msvccompiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/npy_pkg_config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/numpy_distribution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/pathccompiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/system_info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/tests/test_exec_command.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/tests/test_fcompiler_gnu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/tests/test_fcompiler_intel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/tests/test_fcompiler_nagfor.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/tests/test_from_template.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/tests/test_misc_util.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/tests/test_npy_pkg_config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/tests/test_system_info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/distutils/unixccompiler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/doc/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/doc/basics.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/doc/broadcasting.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/doc/byteswapping.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/doc/constants.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/doc/creation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/doc/glossary.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/doc/indexing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/doc/internals.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/doc/misc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/doc/structured_arrays.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/doc/subclassing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/doc/ufuncs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/dual.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/__main__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/__version__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/auxfuncs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/capi_maps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/cb_rules.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/cfuncs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/common_rules.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/crackfortran.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/diagnose.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/f2py2e.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/f2py_testing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/f90mod_rules.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/func2subr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/rules.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/src/fortranobject.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/src/fortranobject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/array_from_pyobj/wrapmodule.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/assumed_shape/.f2py_f2cmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/assumed_shape/foo_free.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/assumed_shape/foo_mod.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/assumed_shape/foo_use.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/assumed_shape/precision.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/common/block.f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/kind/foo.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/mixed/foo.f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/mixed/foo_fixed.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/mixed/foo_free.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/parameter/constant_both.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/parameter/constant_compound.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/parameter/constant_integer.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/parameter/constant_non_compound.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/parameter/constant_real.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/regression/inout.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/size/foo.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/src/string/char.f90" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/test_array_from_pyobj.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/test_assumed_shape.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/test_block_docstring.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/test_callback.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/test_common.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/test_kind.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/test_mixed.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/test_parameter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/test_regression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/test_return_character.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/test_return_complex.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/test_return_integer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/test_return_logical.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/test_return_real.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/test_semicolon_split.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/test_size.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/test_string.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/tests/util.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/f2py/use_rules.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/fft/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/fft/fftpack.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/fft/helper.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/fft/info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/fft/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/fft/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/fft/tests/test_fftpack.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/fft/tests/test_helper.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/_datasource.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/_iotools.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/_version.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/arraypad.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/arraysetops.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/arrayterator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/financial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/format.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/function_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/histograms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/index_tricks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/mixins.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/nanfunctions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/npyio.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/polynomial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/recfunctions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/scimath.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/shape_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/stride_tricks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test__datasource.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test__iotools.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test__version.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_arraypad.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_arraysetops.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_arrayterator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_financial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_format.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_function_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_histograms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_index_tricks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_io.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_mixins.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_nanfunctions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_packbits.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_polynomial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_recfunctions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_regression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_shape_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_stride_tricks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_twodim_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_type_check.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_ufunclike.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/tests/test_utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/twodim_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/type_check.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/ufunclike.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/user_array.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/linalg/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/linalg/info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/linalg/linalg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/linalg/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/linalg/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/linalg/tests/test_build.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/linalg/tests/test_deprecations.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/linalg/tests/test_linalg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/linalg/tests/test_regression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/ma/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/ma/bench.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/ma/core.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/ma/extras.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/ma/mrecords.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/ma/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/ma/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/ma/tests/test_core.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/ma/tests/test_deprecations.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/ma/tests/test_extras.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/ma/tests/test_mrecords.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/ma/tests/test_old_ma.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/ma/tests/test_regression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/ma/tests/test_subclassing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/ma/testutils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/ma/timer_comparison.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/ma/version.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/matlib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/matrixlib/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/matrixlib/defmatrix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/matrixlib/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/matrixlib/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/matrixlib/tests/test_defmatrix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/matrixlib/tests/test_interaction.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/matrixlib/tests/test_masked_matrix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/matrixlib/tests/test_matrix_linalg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/matrixlib/tests/test_multiarray.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/matrixlib/tests/test_numeric.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/matrixlib/tests/test_regression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/_polybase.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/chebyshev.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/hermite.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/hermite_e.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/laguerre.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/legendre.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/polynomial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/polyutils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/tests/test_chebyshev.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/tests/test_classes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/tests/test_hermite.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/tests/test_hermite_e.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/tests/test_laguerre.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/tests/test_legendre.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/tests/test_polynomial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/tests/test_polyutils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/polynomial/tests/test_printing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/random/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/random/info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/random/randomkit.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/random/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/random/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/random/tests/test_random.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/random/tests/test_regression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/testing/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/testing/_private/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/testing/_private/decorators.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/testing/_private/noseclasses.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/testing/_private/nosetester.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/testing/_private/parameterized.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/testing/_private/pytesttester.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/testing/_private/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/testing/decorators.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/testing/noseclasses.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/testing/nosetester.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/testing/print_coercion_tables.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/testing/setup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/testing/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/testing/tests/test_decorators.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/testing/tests/test_doctesting.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/testing/tests/test_utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/testing/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/tests/test_ctypeslib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/tests/test_matlib.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/tests/test_numpy_version.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/tests/test_reloading.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/tests/test_scripts.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/tests/test_warnings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/version.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.3.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.3.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.3.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.3.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.3.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.3.dist-info/entry_points.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.3.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-9.0.3.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/ordereddict.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/re-vendor.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/cacert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/util/selectors.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/basecommand.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/baseparser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/cmdoptions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/check.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/completion.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/download.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/freeze.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/hash.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/help.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/install.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/search.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/show.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/uninstall.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/commands/wheel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/compat/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/compat/dictconfig.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/download.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/exceptions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/index.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/locations.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/models/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/models/index.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/operations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/operations/check.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/operations/freeze.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/pep425tags.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/req/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/req/req_file.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/req/req_install.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/req/req_set.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/req/req_uninstall.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/appdirs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/build.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/deprecation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/encoding.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/filesystem.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/glibc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/hashes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/logging.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/outdated.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/packaging.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/ui.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/vcs/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/vcs/bazaar.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/vcs/git.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/vcs/mercurial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/vcs/subversion.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/wheel.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser-2.19.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser-2.19.dist-info/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser-2.19.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser-2.19.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser-2.19.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser-2.19.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser/_ast_gen.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser/_build_tables.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser/_c_ast.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser/ast_transforms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser/c_ast.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser/c_generator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser/c_lexer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser/c_parser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser/lextab.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser/ply/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser/ply/cpp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser/ply/ctokens.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser/ply/lex.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser/ply/yacc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser/ply/ygen.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser/plyparser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pycparser/yacctab.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/_auth.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/_compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/_socketio.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/charset.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/connections.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/constants/CLIENT.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/constants/COMMAND.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/constants/CR.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/constants/ER.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/constants/FIELD_TYPE.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/constants/FLAG.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/constants/SERVER_STATUS.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/constants/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/converters.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/cursors.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/err.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/optionfile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/protocol.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/times.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/util.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/six-1.11.0.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/six-1.11.0.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/six-1.11.0.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/six-1.11.0.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/six-1.11.0.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/six-1.11.0.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/six-1.11.0.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/six.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pip-selfcheck.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-18.0.dist-info/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-18.0.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-18.0.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-18.0.dist-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/basecommand.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/baseparser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/build_env.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/cache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/cmdoptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/commands/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/commands/check.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/commands/completion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/commands/configuration.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/commands/download.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/commands/freeze.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/commands/hash.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/commands/help.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/commands/install.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/commands/list.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/commands/search.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/commands/show.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/commands/uninstall.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/commands/wheel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/configuration.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/download.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/index.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/locations.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/models/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/models/index.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/operations/check.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/operations/freeze.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/operations/prepare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/pep425tags.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/req/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/req/req_file.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/req/req_install.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/req/req_set.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/req/req_tracker.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/req/req_uninstall.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/resolve.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/utils/appdirs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/utils/deprecation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/utils/encoding.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/utils/filesystem.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/utils/glibc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/utils/hashes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/utils/logging.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/utils/misc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/utils/outdated.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/utils/packaging.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/utils/temp_dir.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/utils/typing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/utils/ui.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/vcs/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/vcs/bazaar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/vcs/git.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/vcs/mercurial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/vcs/subversion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/wheel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/msgpack/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/msgpack/_version.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/msgpack/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/msgpack/fallback.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/pkg_resources/py31compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/pytoml/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/pytoml/core.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/pytoml/parser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/pytoml/writer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/util/queue.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-18.0.dist-info/INSTALLER" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/PyMySQL-0.9.2.dist-info/INSTALLER" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-18.0.dist-info/WHEEL" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/PyMySQL-0.9.2.dist-info/WHEEL" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip-18.0.dist-info/top_level.txt" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto-0.24.0.dist-info/INSTALLER" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/operations/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/asn1crypto/_perf/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/status_codes.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/status_codes.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/utils/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/numpy/compat/tests/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_internal/utils/setuptools_build.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/utils/setuptools_build.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/t32.exe" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/t32.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/t64.exe" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/t64.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/w32.exe" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/w32.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/w64.exe" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/w64.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/kakaobot_GTG.iml" afterPath="$PROJECT_DIR$/.idea/kakaobot_GTG.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/pip" afterPath="$PROJECT_DIR$/bin/pip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/pip3" afterPath="$PROJECT_DIR$/bin/pip3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/pip3.6" afterPath="$PROJECT_DIR$/bin/pip3.6" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kakaobotapp/views.py" afterPath="$PROJECT_DIR$/kakaobotapp/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/__main__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/__main__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/appdirs.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/appdirs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/_cmd.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/_cmd.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/adapter.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/adapter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/cache.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/cache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/caches/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/caches/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/compat.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/controller.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/controller.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/filewrapper.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/filewrapper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/heuristics.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/heuristics.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/serialize.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/serialize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/wrapper.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/cachecontrol/wrapper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/certifi/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/certifi/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/certifi/cacert.pem" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/certifi/cacert.pem" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/chardet/cli/chardetect.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/chardet/cli/chardetect.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/colorama/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/colorama/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/colorama/ansitowin32.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/colorama/ansitowin32.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/colorama/win32.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/colorama/win32.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/compat.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/database.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/database.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/index.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/index.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/locators.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/locators.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/manifest.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/manifest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/markers.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/markers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/metadata.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/metadata.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/resources.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/resources.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/scripts.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/scripts.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/util.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/version.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/version.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/wheel.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distlib/wheel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distro.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/distro.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_ihatexml.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_ihatexml.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_inputstream.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_inputstream.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_trie/_base.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_trie/_base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_utils.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/_utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/constants.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/constants.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/lint.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/lint.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/whitespace.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/filters/whitespace.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/html5parser.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/html5parser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/serializer.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/serializer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treeadapters/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treeadapters/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treeadapters/genshi.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treeadapters/genshi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treeadapters/sax.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treeadapters/sax.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/base.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treewalkers/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treewalkers/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treewalkers/base.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treewalkers/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/idna/core.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/idna/core.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/idna/idnadata.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/idna/idnadata.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/idna/package_data.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/idna/package_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/idna/uts46data.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/idna/uts46data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/ipaddress.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/ipaddress.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/__about__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/__about__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/_structures.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/_structures.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/markers.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/markers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/requirements.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/requirements.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/specifiers.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/specifiers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/utils.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/version.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/packaging/version.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/pkg_resources/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/bar.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/bar.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/counter.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/counter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/helpers.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/helpers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/spinner.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/progress/spinner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/pyparsing.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/pyparsing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/__version__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/__version__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/adapters.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/adapters.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/api.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/api.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/auth.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/compat.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/cookies.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/cookies.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/exceptions.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/exceptions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/help.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/help.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/models.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/sessions.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/sessions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/status_codes.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/status_codes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/structures.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/structures.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/utils.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/requests/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/six.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/six.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/_collections.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/_collections.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/connection.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/connection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/connectionpool.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/connectionpool.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/contrib/appengine.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/contrib/appengine.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/contrib/pyopenssl.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/contrib/pyopenssl.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/contrib/securetransport.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/contrib/securetransport.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/contrib/socks.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/contrib/socks.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/exceptions.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/exceptions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/fields.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/fields.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/filepost.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/filepost.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/poolmanager.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/poolmanager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/request.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/request.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/response.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/response.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/util/connection.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/util/connection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/util/retry.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/util/retry.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/util/ssl_.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/util/ssl_.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/util/wait.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/urllib3/util/wait.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/webencodings/__init__.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/webencodings/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/webencodings/tests.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/webencodings/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/webencodings/x_user_defined.py" afterPath="$PROJECT_DIR$/lib/python3.6/site-packages/pip/_vendor/webencodings/x_user_defined.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +926,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kakaobotapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="0">
               <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
@@ -29,10 +938,44 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kakaobotapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="220">
+              <caret line="114" column="11" lean-forward="false" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lecture.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kakaobotapp/lecture.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lecturealgo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="294" column="35" lean-forward="true" selection-start-line="294" selection-start-column="35" selection-end-line="294" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kakaobotapp/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,8 +984,8 @@
       <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="262">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#22#31#0" expanded="true" />
               </folding>
@@ -53,7 +996,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kakaobotdjanogo/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="262">
               <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding>
                 <element signature="e#639#671#0" expanded="true" />
@@ -64,6 +1007,20 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Compare</find>
+      <find>Compare(</find>
+      <find>print</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -73,15 +1030,17 @@
         <option value="$PROJECT_DIR$/kakaobotdjanogo/urls.py" />
         <option value="$PROJECT_DIR$/kakaobotdjanogo/settings.py" />
         <option value="$PROJECT_DIR$/kakaobotapp/urls.py" />
+        <option value="$PROJECT_DIR$/kakaobotapp/lecture.py" />
+        <option value="$PROJECT_DIR$/kakaobotapp/test.py" />
+        <option value="$PROJECT_DIR$/kakaobotapp/lecturealgo.py" />
         <option value="$PROJECT_DIR$/kakaobotapp/views.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="426" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="854" />
-    <option name="height" value="693" />
+    <option name="height" value="723" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -114,6 +1073,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,12 +1096,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -154,6 +1113,70 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python.lecturealgo">
+    <configuration name="lecture" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kakaobotapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="kakaobot_GTG" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kakaobotapp/lecture.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="lecturealgo" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kakaobotapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="kakaobot_GTG" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kakaobotapp/lecturealgo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kakaobotapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="kakaobot_GTG" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kakaobotapp/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.lecturealgo" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.lecture" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.lecture" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -177,20 +1200,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="426" y="23" width="854" height="693" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18618266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15703125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16939078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4294205" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -208,10 +1231,398 @@
     <option name="LAST_COMMIT_MESSAGE" value="modify app/urls.py message to message$" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kakaobotapp/views.py</url>
+          <line>24</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kakaobotapp/test.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kakaobotapp/test.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kakaobotapp/test.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
+          <line>182</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
+          <line>168</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
+          <line>181</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
+          <line>183</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
+          <line>184</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="121" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/lecture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3360">
+          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotdjanogo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#639#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/lecture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotdjanogo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#639#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/lecture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotdjanogo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#639#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/lecture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotdjanogo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#639#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotdjanogo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#639#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotdjanogo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#639#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kakaobotapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -253,33 +1664,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kakaobotdjanogo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="e#639#671#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kakaobotapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="0">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
@@ -287,10 +1677,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/err.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/pymysql/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3360">
+          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotdjanogo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#639#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.6/site-packages/numpy/lib/shape_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="705" column="0" lean-forward="false" selection-start-line="705" selection-start-column="0" selection-end-line="705" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2017.2/python_stubs/1827196773/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="3606" column="0" lean-forward="true" selection-start-line="3606" selection-start-column="0" selection-end-line="3606" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="294" column="35" lean-forward="true" selection-start-line="294" selection-start-column="35" selection-end-line="294" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/lecture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kakaobotapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="114" column="11" lean-forward="false" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
