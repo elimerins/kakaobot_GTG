@@ -27,7 +27,7 @@ def generator(min,max,major,choice_grade):
     for i in maj_cd_list:
         if (i[1] == major):
             maj_cd = i[0]
-            print(maj_cd)
+            #print(maj_cd)
 
     # 학년별 뽑아오기
     course_sql = '''
@@ -38,15 +38,18 @@ def generator(min,max,major,choice_grade):
     '''
     curs.execute(course_sql, (maj_cd, "%{}%".format(str(grade))))
     course_list = curs.fetchall()
-    print(course_list)
+    #print(course_list)
     shuffled_list= np.array(course_list)
-    print(shuffled_list)
+    #print(shuffled_list)
     np.random.shuffle(shuffled_list)
 
     for time in shuffled_list:
         time[1] = time[1].replace(' ', '')  # 각 각의당 시간대 문자열에서 공백 제거
+    MakeTimeTable(min,max,shuffled_list)
+    Dup_func(combination)
+    list=PrintList()
 
-    return MakeTimeTable(min,max,shuffled_list)
+    return list[:,0:2];
 
 
 def MakeTimeTable(min_credit, max_credit, shuffled_list):
@@ -76,10 +79,6 @@ def MakeTimeTable(min_credit, max_credit, shuffled_list):
 
             else:
                 break
-    return Dup_func(combination)
-
-
-
 def Compare(timelist, lecname, f_lecs):
     compare_list = np.array(f_lecs)
     #print(lecname + ' ' + str(timelist))
@@ -149,7 +148,6 @@ def Compare(timelist, lecname, f_lecs):
 def Dup_func(combination):
     for comb in combination:
         Duplication_check(comb)
-    PrintList()
 
 def Duplication_check(comb):
     for Oneofresults in resultList:  # 시간표 조합들
@@ -177,12 +175,12 @@ def Duplication_check(comb):
         for lec in slectime:
             lectime_list.append(lec)
     lectime_list.sort()
-    print(lectime_list)
-    print(comb)
+    #print(lectime_list)
+    #print(comb)
     cohesion = cohesion_check(lectime_list)
     #print(resultList[0])
     cohesion_checked_list.append(cohesion)
-    print(cohesion_checked_list)
+    #print(cohesion_checked_list)
     return True
 def PrintList():
     cohesion_dict_list = {}
@@ -204,12 +202,13 @@ def PrintList():
     for i in range(0, 3):
         print(sorted_list[i])
         print(np.array(resultList[i]))
-    '''
+    
     print('-------------------------------')
     print('-------------------------------')
     print('-------------------------------')
     print(sorted_list[0])
     print(np.array(resultList[0]))
+    '''
     return np.array(resultList[0])
 
 def cohesion_check(lectime_list):

@@ -77,11 +77,10 @@ WSGI_APPLICATION = 'kakaobotdjanogo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '',
-        'USER':'' ,
-        'PASSWORD':'' ,
-        'HOST':'' ,
-        'PORT':'' ,
+        'NAME': 'gtg',
+        'USER':'root' ,
+        'PASSWORD':'password' ,
+        'PORT':'3306' ,
     }
 }
 
