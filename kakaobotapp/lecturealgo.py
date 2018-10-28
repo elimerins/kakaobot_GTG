@@ -22,7 +22,10 @@ combination = []
 resultList = []
 cohesion_checked_list = []
 def generator(min,max,major,choice_grade):
-    maj_cd = ""
+    combination.clear()
+    resultList.clear()
+    cohesion_checked_list.clear()
+    maj_cd=''
     grade = choice_grade
     for i in maj_cd_list:
         if (i[1] == major):
@@ -32,11 +35,11 @@ def generator(min,max,major,choice_grade):
     # 학년별 뽑아오기
     course_sql = '''
     select title,time,credit,IFNULL(cor_cd,'777') cor_cd 
-    FROM course WHERE MAJ_CD=%s 
-    AND (GRADE LIKE %s
-    )
+    FROM course WHERE MAJ_CD in (%s) 
+    AND (GRADE LIKE %s)
+    AND (IFNULL(TIME,'') <> '') 
     '''
-    curs.execute(course_sql, (maj_cd, "%{}%".format(str(grade))))
+    curs.execute(course_sql, (maj_cd, "%{}%".format(grade)))
     course_list = curs.fetchall()
     #print(course_list)
     shuffled_list= np.array(course_list)
@@ -48,8 +51,9 @@ def generator(min,max,major,choice_grade):
     MakeTimeTable(min,max,shuffled_list)
     Dup_func(combination)
     list=PrintList()
+    return list[:,0:2]
 
-    return list[:,0:2];
+
 
 
 def MakeTimeTable(min_credit, max_credit, shuffled_list):
@@ -209,7 +213,11 @@ def PrintList():
     print(sorted_list[0])
     print(np.array(resultList[0]))
     '''
-    return np.array(resultList[0])
+    if len(resultList)==0:
+        string='죄송합니다.\n맞는 조합이 없습니다.\n조건을 다시 설정해주세요'
+        return string
+    else:
+        return np.array(resultList[0])
 
 def cohesion_check(lectime_list):
     cohesion_degree = 0.0
@@ -290,7 +298,7 @@ def isNumeric(time_type):
     else:
         result = 0
     return result
-generator(12,15,'컴퓨터공학과',2)
+#generator(12,15,'컴퓨터공학과',2)
 #MakeTimeTable(12,15,shuffled_list)
 '''
 for comb in combination:

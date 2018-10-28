@@ -3,6 +3,8 @@ from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
 import json
 from kakaobotapp import lecturealgo
+from kakaobotapp import lecture
+
 import copy
 import pymysql
 
@@ -17,8 +19,7 @@ for index in rows:
     maj_cd_list.append(index[2])
 college_list=['사회과학대학','경영대학','인문대학','법과대학','공과대학','바이오나노대학','IT대학',
               '예술대학','가천리버럴아츠칼리지','창조융합원','글로벌교양대학','생활과학대학','간호대학','의과대학','자연과학대학']
-major=''
-grade=0
+
 gachonliberalart_college=[]
 ruddud_eo=['경영학과','글로벌경영학과','금융수학']
 tkrhk_eo=['행정학과','미디어커뮤니케이션학과','관광경영학과','글로벌경제학과','헬스케어경영학과','응용통계학과','유아교육학과']
@@ -35,7 +36,9 @@ dir_eo=['약학과']
 rksgh_eo=['간호학과']
 qhrjsrhkgkr_eo=['치위생학과','응급구조학과','방사선학과','물리치료학과','의용생체공학과','운동재활복지학과']
 # Create your views here.
-
+credit_rangelist=['9 ~ 12','13 ~ 15','16 ~ 18']
+major=''
+usergrade=''
 def keyboard(request):
     return JsonResponse({
         'type': 'buttons',
@@ -62,11 +65,16 @@ def answer(request):
     json_str = ((request.body).decode('utf-8'))
     received_json_data = json.loads(json_str)
     datacontent = received_json_data['content']
+    userkey = received_json_data['user_key']
+    type = received_json_data['type']
+    global major
+    global usergrade
 
     datarestart='처음부터'
     if datacontent == '처음부터':
         choice_college = "단과대학을 선택해주세요"
-        cpmajor=datacontent
+        major=''
+        usergrade=0
         return JsonResponse({
 
             'message': {
@@ -94,7 +102,7 @@ def answer(request):
             #단과대학 for range(array)형식으로 넣을것
 
         })
-    elif any(datacontent in s for s in college_list):
+    elif datacontent=='경영대학':
         tomorrow = "학과를 선택해주세요"
 
         return JsonResponse({
@@ -103,13 +111,14 @@ def answer(request):
             },
             'keyboard': {
                 'type': 'buttons',
-                'buttons': ['전자공학과',
-                            '컴퓨터공학과',
+                'buttons': [ruddud_eo[0],
+                            ruddud_eo[1],
+                            ruddud_eo[2],
                             datarestart]
             }
 
         })
-    elif any(datacontent in s for s in college_list):
+    elif datacontent=='사회과학대학':
         tomorrow = "학과를 선택해주세요"
 
         return JsonResponse({
@@ -118,9 +127,14 @@ def answer(request):
             },
             'keyboard': {
                 'type': 'buttons',
-                'buttons': ['법학과',
-                            '경찰안보학과',
-                            datarestart]
+                'buttons': [tkrhk_eo[0],
+                            tkrhk_eo[1],
+                            tkrhk_eo[2],
+                            tkrhk_eo[3],
+                            tkrhk_eo[4],
+                            tkrhk_eo[5],
+                            tkrhk_eo[6],
+                    datarestart]
             }
 
         })
@@ -139,8 +153,171 @@ def answer(request):
             }
 
         })
-    elif datacontent=="컴퓨터공학과":
+    elif datacontent == '공과대학':
+        tomorrow = "학과를 선택해주세요"
+
+        return JsonResponse({
+            'message': {
+                'text': tomorrow
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': [rhdrhk_eo[0],
+                            rhdrhk_eo[1],
+                            rhdrhk_eo[2],
+                            rhdrhk_eo[3],
+                            rhdrhk_eo[4],
+                            rhdrhk_eo[5],
+                            rhdrhk_eo[6],
+                            rhdrhk_eo[7],
+                            rhdrhk_eo[8],
+                            rhdrhk_eo[9],
+                            rhdrhk_eo[10],
+                            rhdrhk_eo[11],
+                            rhdrhk_eo[12],
+                            datarestart]
+            }
+
+        })
+    elif datacontent == '바이노나오대학':
+        tomorrow = "학과를 선택해주세요"
+
+        return JsonResponse({
+            'message': {
+                'text': tomorrow
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': [qksk_eo[0],
+                            qksk_eo[1],
+                            qksk_eo[2],
+                            qksk_eo[3],
+                            qksk_eo[4],
+                            qksk_eo[5],
+                            datarestart]
+            }
+
+        })
+    elif datacontent == 'IT대학':
+        tomorrow = "학과를 선택해주세요"
+
+        return JsonResponse({
+            'message': {
+                'text': tomorrow
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': [IT_eo[0],
+                            IT_eo[1],
+                            IT_eo[2],
+                            IT_eo[3],
+                            datarestart]
+            }
+
+        })
+    elif datacontent == '한의과대학':
+        tomorrow = "학과를 선택해주세요"
+
+        return JsonResponse({
+            'message': {
+                'text': tomorrow
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': [gksdml_eo[0],
+                            datarestart]
+            }
+
+        })
+    elif datacontent == '예술대학':
+        tomorrow = "학과를 선택해주세요"
+
+        return JsonResponse({
+            'message': {
+                'text': tomorrow
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': [dP_eo[0],
+                            dP_eo[1],
+                            dP_eo[2],
+                            dP_eo[3],
+                            dP_eo[4],
+                            dP_eo[5],
+                            dP_eo[6],
+                            dP_eo[7],
+                            dP_eo[8],
+                            dP_eo[9],
+                            dP_eo[10],
+                            datarestart]
+            }
+
+        })
+    elif datacontent == '약학대학':
+        tomorrow = "학과를 선택해주세요"
+
+        return JsonResponse({
+            'message': {
+                'text': tomorrow
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': [dir_eo[0],
+                            datarestart]
+            }
+
+        })
+    elif datacontent == '의과대학':
+        tomorrow = "학과를 선택해주세요"
+
+        return JsonResponse({
+            'message': {
+                'text': tomorrow
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': [dml_eo[0],
+                            dml_eo[1],
+                            datarestart]
+            }
+
+        })
+    elif datacontent == '간호대학':
+        tomorrow = "학과를 선택해주세요"
+
+        return JsonResponse({
+            'message': {
+                'text': tomorrow
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': [rksgh_eo[0],
+                            datarestart]
+            }
+
+        })
+    elif datacontent == '보건과학대학':
+        tomorrow = "학과를 선택해주세요"
+
+        return JsonResponse({
+            'message': {
+                'text': tomorrow
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': [qhrjsrhkgkr_eo[0],
+                            qhrjsrhkgkr_eo[1],
+                            qhrjsrhkgkr_eo[2],
+                            qhrjsrhkgkr_eo[3],
+                            qhrjsrhkgkr_eo[4],
+                            qhrjsrhkgkr_eo[5],
+                            datarestart]
+            }
+
+        })
+    elif any(datacontent in s for s in ruddud_eo):
         grade = "학년을 선택해주세요"
+        major=datacontent
         return JsonResponse({
             'message': {
                 'text': grade
@@ -156,11 +333,210 @@ def answer(request):
             }
 
         })
-    elif datacontent=='2':
-        credit_range="학점 범위를 선택해주세요"
-        credit_rangelist=['9 ~ 12',
-                     '13 ~ 15',
-                     '16 ~ 18',]
+
+    elif any(datacontent in s for s in tkrhk_eo):
+        grade = "학년을 선택해주세요"
+        major=datacontent
+        return JsonResponse({
+            'message': {
+                'text': grade
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': ['1',
+                            '2',
+                            '3',
+                            '4',
+                            datarestart
+                            ]
+            }
+
+        })
+    elif any(datacontent in s for s in dlsanse_eo):
+        grade = "학년을 선택해주세요"
+        major=datacontent
+        return JsonResponse({
+            'message': {
+                'text': grade
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': ['1',
+                            '2',
+                            '3',
+                            '4',
+                            datarestart
+                            ]
+            }
+
+        })
+    elif any(datacontent in s for s in qjqrhk_eo):
+        grade = "학년을 선택해주세요"
+        major=datacontent
+        return JsonResponse({
+            'message': {
+                'text': grade
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': ['1',
+                            '2',
+                            '3',
+                            '4',
+                            datarestart
+                            ]
+            }
+
+        })
+    elif any(datacontent in s for s in rhdrhk_eo):
+        grade = "학년을 선택해주세요"
+        major=datacontent
+        return JsonResponse({
+            'message': {
+                'text': grade
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': ['1',
+                            '2',
+                            '3',
+                            '4',
+                            '5',
+                            datarestart
+                            ]
+            }
+
+        })
+    elif any(datacontent in s for s in qksk_eo):
+        grade = "학년을 선택해주세요"
+        major=datacontent
+        return JsonResponse({
+            'message': {
+                'text': grade
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': ['1',
+                            '2',
+                            '3',
+                            '4',
+                            datarestart
+                            ]
+            }
+
+        })
+    elif any(datacontent in s for s in IT_eo):
+        grade = "학년을 선택해주세요"
+        major=datacontent
+        return JsonResponse({
+            'message': {
+                'text': grade
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': ['1',
+                            '2',
+                            '3',
+                            '4',
+                            datarestart
+                            ]
+            }
+
+        })
+    elif any(datacontent in s for s in gksdml_eo):
+        grade = "학년을 선택해주세요"
+        major=datacontent
+        return JsonResponse({
+            'message': {
+                'text': grade
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': ['1',
+                            '2',
+                            '3',
+                            '4',
+                            datarestart
+                            ]
+            }
+
+        })
+    elif any(datacontent in s for s in dP_eo):
+        grade = "학년을 선택해주세요"
+        major=datacontent
+        return JsonResponse({
+            'message': {
+                'text': grade
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': ['1',
+                            '2',
+                            '3',
+                            '4',
+                            datarestart
+                            ]
+            }
+
+        })
+    elif any(datacontent in s for s in dir_eo):
+        grade = "학년을 선택해주세요"
+        major=datacontent
+        return JsonResponse({
+            'message': {
+                'text': grade
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': ['1',
+                            '2',
+                            '3',
+                            '4',
+                            datarestart
+                            ]
+            }
+
+        })
+    elif any(datacontent in s for s in rksgh_eo):
+        grade = "학년을 선택해주세요"
+        major=datacontent
+        return JsonResponse({
+            'message': {
+                'text': grade
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': ['1',
+                            '2',
+                            '3',
+                            '4',
+                            datarestart
+                            ]
+            }
+
+        })
+    elif any(datacontent in s for s in qhrjsrhkgkr_eo):
+        grade = "학년을 선택해주세요"
+        major=datacontent
+        return JsonResponse({
+            'message': {
+                'text':
+                    grade
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': ['1',
+                            '2',
+                            '3',
+                            '4',
+                            datarestart
+                            ]
+            }
+
+        })
+    elif datacontent=='1':
+        credit_range = "학점 범위를 선택해주세요"
+        usergrade = datacontent
         return JsonResponse({
             'message':{
                 'text':credit_range
@@ -176,12 +552,67 @@ def answer(request):
 
             }
         })
-    elif datacontent=='9 ~ 12':
-        waiting_message='잠시만 기다려주세요!'
-        list=str(lecturealgo.generator(9,12,major,grade))
+    elif datacontent=='2':
+        credit_range="학점 범위를 선택해주세요"
+        usergrade=datacontent
         return JsonResponse({
             'message':{
-                'text':list
+                'text':credit_range
+            },
+            'keyboard':{
+                'type':'buttons',
+                'buttons': [
+                    credit_rangelist[0],
+                    credit_rangelist[1],
+                    credit_rangelist[2],
+                    datarestart
+                ]
+
+            }
+        })
+
+    elif datacontent=='3':
+        credit_range="학점 범위를 선택해주세요"
+        usergrade=datacontent
+        return JsonResponse({
+            'message':{
+                'text':credit_range
+            },
+            'keyboard':{
+                'type':'buttons',
+                'buttons': [
+                    credit_rangelist[0],
+                    credit_rangelist[1],
+                    credit_rangelist[2],
+                    datarestart
+                ]
+
+            }
+        })
+    elif datacontent=='4':
+        credit_range="학점 범위를 선택해주세요"
+        usergrade=datacontent
+        return JsonResponse({
+            'message':{
+                'text':credit_range
+            },
+            'keyboard':{
+                'type':'buttons',
+                'buttons': [
+                    credit_rangelist[0],
+                    credit_rangelist[1],
+                    credit_rangelist[2],
+                    datarestart
+                ]
+
+            }
+        })
+    elif datacontent==credit_rangelist[0]:
+        waiting_message='잠시만 기다려주세요!'
+        list=lecturealgo.generator(9,12,major,usergrade)
+        return JsonResponse({
+            'message':{
+                'text':major+'\n'+usergrade+'\n'+datacontent+'\n'+str(list)
             },
             'keyboard':{
                 'type':'buttons',
@@ -190,12 +621,12 @@ def answer(request):
                 ]
             }
         })
-    elif datacontent=='13 ~ 15':
+    elif datacontent==credit_rangelist[1]:
         waiting_message='잠시만 기다려주세요!'
-        list=str(lecturealgo.generator(13,15,major,grade))
+        list=lecturealgo.generator(13,15,major,usergrade)
         return JsonResponse({
             'message':{
-                'text':list
+                'text':major+'\n'+usergrade+'\n'+datacontent+'\n'+str(list)
             },
             'keyboard':{
                 'type':'buttons',
@@ -204,12 +635,13 @@ def answer(request):
                 ]
             }
         })
-    elif datacontent=='16 ~ 18':
+    elif datacontent==credit_rangelist[2]:
         waiting_message='잠시만 기다려주세요!'
-        list=str(lecturealgo.generator(16,18,major,grade))
+        list=lecturealgo.generator(16,18,major,usergrade)
+
         return JsonResponse({
             'message':{
-                'text':list
+                'text':major+'\n'+usergrade+'\n'+'\n'+datacontent+'\n'+str(list)
             },
             'keyboard':{
                 'type':'buttons',

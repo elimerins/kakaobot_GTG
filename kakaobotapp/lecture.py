@@ -1,7 +1,9 @@
 class Data:
-     def __init__(self,lecname,lectime,lec_credit,lec_cd):
-         self.lecname=lecname
-         self.lectime=lectime
-         self.lec_credit=lec_credit
-         self.lec_cd=lec_cd
+     def __init__(self):
+         self.major=''
+         self.grade=0
+     def grade(self,grade):
+         self.grade=grade
+     def major(self,major):
+         self.major=major
 
