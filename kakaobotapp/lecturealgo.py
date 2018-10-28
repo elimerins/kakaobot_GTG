@@ -32,7 +32,7 @@ def generator(min,max,major,choice_grade):
     # 학년별 뽑아오기
     course_sql = '''
     select title,time,credit,IFNULL(cor_cd,'777') cor_cd 
-    FROM COURSE WHERE MAJ_CD=%s 
+    FROM course WHERE MAJ_CD=%s 
     AND (GRADE LIKE %s
     )
     '''
