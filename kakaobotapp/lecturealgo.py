@@ -30,16 +30,17 @@ def generator(min,max,major,choice_grade):
     maj_cd=''
     grade = choice_grade
     for i in maj_cd_list:
+        print(i)
         if (i[1] == major):
             maj_cd = i[0]
-            #print(maj_cd)
+            print(maj_cd)
             break
             #print(maj_cd)
 
     # 학년별 뽑아오기
     course_sql = '''
     select title,time,credit,IFNULL(cor_cd,'777') cor_cd 
-    FROM course WHERE MAJ_CD in (%s) 
+    FROM course WHERE MAJ_CD=%s 
     AND (GRADE LIKE %s)
     AND (IFNULL(TIME,'') <> '') 
     '''
@@ -48,7 +49,7 @@ def generator(min,max,major,choice_grade):
     print(course_list)
     if len(course_list)==0:
         return grade+"학년에 맞는 전공 과목이 없습니다 ㅜㅜ"
-    else:got 
+    else:
         shuffled_list = np.array(course_list)
         # print(shuffled_list)
         np.random.shuffle(shuffled_list)

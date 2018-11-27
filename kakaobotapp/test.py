@@ -40,7 +40,7 @@ for course in course_list:
     print(course)
 '''
 
-list=lecturealgo.generator(9,12,'컴퓨터공학과','1')
+list=lecturealgo.generator(9,12,'미술·디자인학부(회화·조소)','1')
 print(str(list))
 
 
