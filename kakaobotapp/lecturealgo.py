@@ -14,13 +14,14 @@ rows = curs.fetchall()
 maj_cd_list = []
 # print(rows[0])
 for index in rows:
-    maj_cd_list.append((index[1], index[2]))
+    maj_cd_list.append((index[0], index[1]))
 
 # 받아올 항목 학과, 학점범위, 학년
 
 combination = []
 resultList = []
 cohesion_checked_list = []
+
 def generator(min,max,major,choice_grade):
     combination.clear()
     resultList.clear()
@@ -30,6 +31,8 @@ def generator(min,max,major,choice_grade):
     for i in maj_cd_list:
         if (i[1] == major):
             maj_cd = i[0]
+            #print(maj_cd)
+            break
             #print(maj_cd)
 
     # 학년별 뽑아오기
@@ -48,41 +51,57 @@ def generator(min,max,major,choice_grade):
 
     for time in shuffled_list:
         time[1] = time[1].replace(' ', '')  # 각 각의당 시간대 문자열에서 공백 제거
+
     MakeTimeTable(min,max,shuffled_list)
-    Dup_func(combination)
-    list=PrintList()
-    return list[:,0:2]
+    if len(combination)!=1:
+        Dup_func(combination)
+    list = PrintList()
+    return list
 
-
-
+def Dup_func(combination):
+    for comb in combination:
+        Duplication_check(comb)
 
 def MakeTimeTable(min_credit, max_credit, shuffled_list):
-    for i in range(20):
+    rangenum=5
+    for i in range(rangenum):
         total_leccredit = 0
         np.random.shuffle(shuffled_list)
         f_lecs = []
-        f_lecs.append(shuffled_list[len(shuffled_list) - 1])
+        try:
+            f_lecs.append(shuffled_list[len(shuffled_list) - 1])
+        except IndexError as e:
+            print(e)
         total_leccredit+=int(f_lecs[0][2])
         for lecture in shuffled_list:
-            if (total_leccredit < min_credit):
+            if (total_leccredit <min_credit):
                 if (Compare(lecture[1].split(','), lecture[0], f_lecs)):
                     f_lecs.append(lecture)
                     total_leccredit += int(lecture[2])
             elif (total_leccredit == max_credit):
                 combination.append(copy.deepcopy(f_lecs))
+                f_lecs=np.array(f_lecs)
+                print(f_lecs)
+                print(total_leccredit)
                 break
-            elif (total_leccredit >= min_credit):
+            elif (total_leccredit >= min_credit and total_leccredit <max_credit):
                 combination.append(copy.deepcopy(f_lecs))
-                # print(combination)
-                #print(lecture)
+                f_lecs2 = np.array(f_lecs)
+                print(f_lecs2)
+                print(total_leccredit)
+
                 if (Compare(lecture[1].split(','), lecture[0], f_lecs)):
                     f_lecs.append(lecture)
                     total_leccredit += int(lecture[2])
                 else:
-                    break
-
+                    continue
             else:
                 break
+        if i==rangenum-1:
+            if total_leccredit<min_credit:
+                combination.append(copy.deepcopy(f_lecs))
+
+
 def Compare(timelist, lecname, f_lecs):
     compare_list = np.array(f_lecs)
     #print(lecname + ' ' + str(timelist))
@@ -149,9 +168,7 @@ def Compare(timelist, lecname, f_lecs):
                     return False
     #print(lecname + " will be added")
     return True
-def Dup_func(combination):
-    for comb in combination:
-        Duplication_check(comb)
+
 
 def Duplication_check(comb):
     for Oneofresults in resultList:  # 시간표 조합들
@@ -190,8 +207,16 @@ def PrintList():
     cohesion_dict_list = {}
     for i in range(len(cohesion_checked_list)):
         cohesion_dict_list[i] = cohesion_checked_list[i]
-
+    print('\n')
+    print(cohesion_dict_list)
     sorted_list = sorted(cohesion_dict_list.items(), key=operator.itemgetter(1))
+    print(sorted_list)
+    print('\n')
+    '''
+    for i in range(0, 10):
+        print(sorted_list[i][0])
+        print(np.array(resultList[sorted_list[i][0]]))
+        '''
     '''
     print(np.array(resultList[0]))
     print('-------------------------------')
@@ -213,11 +238,13 @@ def PrintList():
     print(sorted_list[0])
     print(np.array(resultList[0]))
     '''
-    if len(resultList)==0:
-        string='죄송합니다.\n맞는 조합이 없습니다.\n조건을 다시 설정해주세요'
-        return string
-    else:
-        return np.array(resultList[0])
+
+    resultString=str(np.array(resultList[sorted_list[i][0]]))
+    #print(resultString)
+    if len(sorted_list)==0:
+        resultString='죄송합니다.\n맞는 조합이 없습니다.\n조건을 다시 설정해주세요'
+
+    return resultString
 
 def cohesion_check(lectime_list):
     cohesion_degree = 0.0
@@ -298,7 +325,8 @@ def isNumeric(time_type):
     else:
         result = 0
     return result
-#generator(12,15,'컴퓨터공학과',2)
+#list=generator(12,15,'컴퓨터공학과',4)
+#print(list)
 #MakeTimeTable(12,15,shuffled_list)
 '''
 for comb in combination:
