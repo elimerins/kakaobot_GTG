@@ -602,7 +602,7 @@ def answer(request):
             }
         })
     elif datacontent==credit_rangelist[2]:
-        print(major + ' ' + usergrade + ' ' + datacontent)
+        print(major + ' ' + usergrade+ ' ' + datacontent)
         if (major == '시각디자인' or major == '산업디자인'):
             major = '미술·디자인학부(디자인)'
         elif (major == '미디어커뮤니케이션학과'):

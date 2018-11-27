@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4d27204a-848c-494c-9f6d-49440f575cc2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kakaobotapp/lecturealgo.py" afterPath="$PROJECT_DIR$/kakaobotapp/lecturealgo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kakaobotapp/test.py" afterPath="$PROJECT_DIR$/kakaobotapp/test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kakaobotapp/views.py" afterPath="$PROJECT_DIR$/kakaobotapp/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kakaobotapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1064">
-              <caret line="607" column="29" lean-forward="true" selection-start-line="607" selection-start-column="29" selection-end-line="607" selection-end-column="29" />
+            <state relative-caret-position="1269">
+              <caret line="612" column="26" lean-forward="true" selection-start-line="612" selection-start-column="26" selection-end-line="612" selection-end-column="26" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -41,8 +42,8 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kakaobotapp/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="424">
+              <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -53,8 +54,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kakaobotdjanogo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2232">
-              <caret line="93" column="28" lean-forward="false" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
+            <state relative-caret-position="616">
+              <caret line="90" column="28" lean-forward="false" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -70,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lecturealgo.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lecturealgo.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+            <state relative-caret-position="402">
+              <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -116,9 +117,9 @@
         <option value="$PROJECT_DIR$/kakaobotapp/urls.py" />
         <option value="$PROJECT_DIR$/kakaobotdjanogo/settings.py" />
         <option value="$PROJECT_DIR$/kakaobotapp/lecture.py" />
+        <option value="$PROJECT_DIR$/kakaobotapp/views.py" />
         <option value="$PROJECT_DIR$/kakaobotapp/test.py" />
         <option value="$PROJECT_DIR$/kakaobotapp/lecturealgo.py" />
-        <option value="$PROJECT_DIR$/kakaobotapp/views.py" />
       </list>
     </option>
   </component>
@@ -343,82 +344,42 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
-          <line>46</line>
+          <line>47</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="119" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
-          <line>57</line>
+          <line>50</line>
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
-          <line>216</line>
+          <line>220</line>
           <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
-          <line>217</line>
+          <line>221</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
-          <line>218</line>
+          <line>222</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
-          <line>98</line>
-          <option name="timeStamp" value="145" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
-          <line>82</line>
-          <option name="timeStamp" value="146" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
-          <line>88</line>
-          <option name="timeStamp" value="147" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
-          <line>102</line>
-          <option name="timeStamp" value="148" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
-          <line>90</line>
-          <option name="timeStamp" value="151" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
-          <line>95</line>
-          <option name="timeStamp" value="152" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
-          <line>99</line>
-          <option name="timeStamp" value="153" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
-          <line>71</line>
+          <line>75</line>
           <option name="timeStamp" value="154" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
-          <line>72</line>
+          <line>76</line>
           <option name="timeStamp" value="155" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
-          <line>73</line>
+          <line>77</line>
           <option name="timeStamp" value="156" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -428,7 +389,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py</url>
-          <line>33</line>
+          <line>34</line>
           <option name="timeStamp" value="163" />
         </line-breakpoint>
       </breakpoints>
@@ -825,9 +786,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kakaobotdjanogo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2232">
-          <caret line="93" column="28" lean-forward="false" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
+        <state relative-caret-position="616">
+          <caret line="90" column="28" lean-forward="false" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kakaobotapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="612" column="26" lean-forward="true" selection-start-line="612" selection-start-column="26" selection-end-line="612" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -841,8 +812,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kakaobotapp/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="424">
+          <caret line="42" column="39" lean-forward="false" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
@@ -851,20 +822,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kakaobotapp/lecturealgo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        <state relative-caret-position="402">
+          <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kakaobotapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="607" column="29" lean-forward="true" selection-start-line="607" selection-start-column="29" selection-end-line="607" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

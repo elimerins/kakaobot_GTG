@@ -33,14 +33,14 @@ for maj_cd in maj_cd_list:
     else:
         real_course_list.append(maj_cd[1])
         #print(real_course_list)
-        print(maj_cd[0]+' '+maj_cd[1]+' :',len(course_list))
+        #print(maj_cd[0]+' '+maj_cd[1]+' :',len(course_list))
 #print(course_list)
 '''
 for course in course_list:
     print(course)
 '''
 
-list=lecturealgo.generator(9,12,'미술·디자인학부(디자인)','3')
+list=lecturealgo.generator(9,12,'컴퓨터공학과','1')
 print(str(list))
 
 

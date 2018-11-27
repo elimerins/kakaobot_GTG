@@ -16,6 +16,7 @@ maj_cd_list = []
 for index in rows:
     maj_cd_list.append((index[0], index[1]))
 
+
 # 받아올 항목 학과, 학점범위, 학년
 
 combination = []
@@ -44,19 +45,22 @@ def generator(min,max,major,choice_grade):
     '''
     curs.execute(course_sql, (maj_cd, "%{}%".format(grade)))
     course_list = curs.fetchall()
-    #print(course_list)
-    shuffled_list= np.array(course_list)
-    #print(shuffled_list)
-    np.random.shuffle(shuffled_list)
+    print(course_list)
+    if len(course_list)==0:
+        return grade+"학년에 맞는 전공 과목이 없습니다 ㅜㅜ"
+    else:got 
+        shuffled_list = np.array(course_list)
+        # print(shuffled_list)
+        np.random.shuffle(shuffled_list)
 
-    for time in shuffled_list:
-        time[1] = time[1].replace(' ', '')  # 각 각의당 시간대 문자열에서 공백 제거
+        for time in shuffled_list:
+            time[1] = time[1].replace(' ', '')  # 각 각의당 시간대 문자열에서 공백 제거
 
-    Sorry=MakeTimeTable(min,max,shuffled_list)
-    if len(combination)!=1:
-        Dup_func(combination)
-    list = PrintList()
-    return list
+        MakeTimeTable(min, max, shuffled_list)
+        if len(combination) != 1:
+            Dup_func(combination)
+        list = PrintList()
+        return list
 
 def Dup_func(combination):
     for comb in combination:
@@ -72,7 +76,7 @@ def MakeTimeTable(min_credit, max_credit, shuffled_list):
             f_lecs.append(shuffled_list[len(shuffled_list) - 1])
         except IndexError as e:
             print("코드가 중간에 꼬였습니다 다시하세요 ㅜㅜ 학과를 못잡았나봅니다")
-            return "검색되는 과목이 없습니다 다시 시도해주세요"
+            return "검색되는 전공 과목이 없습니다 다시 시도해주세요"
         total_leccredit+=int(f_lecs[0][2])
         for lecture in shuffled_list:
             if (total_leccredit <min_credit):
