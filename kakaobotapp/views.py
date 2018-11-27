@@ -60,7 +60,11 @@ def answer(request):
     global usergrade
 
     datarestart='처음부터'
+<<<<<<< HEAD
     if datacontent == '처음부터'or datacontent == '안녕하세요!':
+=======
+    if datacontent == '처음부터'or datacontent == '안녕하세요!':
+>>>>>>> 4bc68bfeda11fa33574df075310e086d521d30eb
         choice_college = "단과대학을 선택해주세요"
         major=''
         usergrade=0
@@ -78,14 +82,12 @@ def answer(request):
                     '공과대학',
                     '바이오나노대학',
                     'IT대학',
+                    '한의대학',
                     '예술대학',
-                    '가천리버럴아츠칼리지',
-                    '창조융합원',
-                    '글로벌교양대학',
-                    '생활과학대학',
+                    '약학대학'
                     '간호대학',
                     '의과대학',
-                    '자연과학대학',
+                    '보건과학대학',
                     datarestart]#마지막은 항상 처음부터로 시작
             }
             #단과대학 for range(array)형식으로 넣을것
@@ -252,6 +254,20 @@ def answer(request):
             'keyboard': {
                 'type': 'buttons',
                 'buttons': [dir_eo[0],
+                            datarestart]
+            }
+
+        })
+    elif datacontent == '한의대학':
+        tomorrow = "학과를 선택해주세요"
+
+        return JsonResponse({
+            'message': {
+                'text': tomorrow
+            },
+            'keyboard': {
+                'type': 'buttons',
+                'buttons': [gksdml_eo[0],
                             datarestart]
             }
 
