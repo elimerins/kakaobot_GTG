@@ -52,7 +52,7 @@ def generator(min,max,major,choice_grade):
     for time in shuffled_list:
         time[1] = time[1].replace(' ', '')  # 각 각의당 시간대 문자열에서 공백 제거
 
-    MakeTimeTable(min,max,shuffled_list)
+    Sorry=MakeTimeTable(min,max,shuffled_list)
     if len(combination)!=1:
         Dup_func(combination)
     list = PrintList()
@@ -71,7 +71,8 @@ def MakeTimeTable(min_credit, max_credit, shuffled_list):
         try:
             f_lecs.append(shuffled_list[len(shuffled_list) - 1])
         except IndexError as e:
-            print(e)
+            print("코드가 중간에 꼬였습니다 다시하세요 ㅜㅜ 학과를 못잡았나봅니다")
+            return "검색되는 과목이 없습니다 다시 시도해주세요"
         total_leccredit+=int(f_lecs[0][2])
         for lecture in shuffled_list:
             if (total_leccredit <min_credit):

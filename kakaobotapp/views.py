@@ -556,7 +556,7 @@ def answer(request):
         })
 
     elif datacontent==credit_rangelist[0]:
-        waiting_message='잠시만 기다려주세요!'
+        print(major+' '+usergrade+' '+datacontent)
         if(major=='시각디자인' or major=='산업디자인'):
             major='미술·디자인학부(디자인)'
         elif(major=='미디어커뮤니케이션학과'):
@@ -580,7 +580,15 @@ def answer(request):
         })
 
     elif datacontent==credit_rangelist[1]:
-        waiting_message='잠시만 기다려주세요!'
+        print(major + ' ' + usergrade + ' ' + datacontent)
+        if (major == '시각디자인' or major == '산업디자인'):
+            major = '미술·디자인학부(디자인)'
+        elif (major == '미디어커뮤니케이션학과'):
+            major = '신문방송학과'
+        elif (major == '금융수학과'):
+            major = '수학정보학과'
+        elif (major == '글로벌경제학과'):
+            major = '무역학과'
         list=lecturealgo.generator(13,15,major,usergrade)
         return JsonResponse({
             'message':{
@@ -594,7 +602,15 @@ def answer(request):
             }
         })
     elif datacontent==credit_rangelist[2]:
-        waiting_message='잠시만 기다려주세요!'
+        print(major + ' ' + usergrade + ' ' + datacontent)
+        if (major == '시각디자인' or major == '산업디자인'):
+            major = '미술·디자인학부(디자인)'
+        elif (major == '미디어커뮤니케이션학과'):
+            major = '신문방송학과'
+        elif (major == '금융수학과'):
+            major = '수학정보학과'
+        elif (major == '글로벌경제학과'):
+            major = '무역학과'
         list=lecturealgo.generator(16,18,major,usergrade)
 
         return JsonResponse({
