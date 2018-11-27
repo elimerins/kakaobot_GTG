@@ -60,7 +60,7 @@ def answer(request):
     global usergrade
 
     datarestart='처음부터'
-    if datacontent == '처음부터':
+    if datacontent == '처음부터'or datacontent == '안녕하세요!':
         choice_college = "단과대학을 선택해주세요"
         major=''
         usergrade=0
