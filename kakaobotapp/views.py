@@ -60,11 +60,7 @@ def answer(request):
     global usergrade
 
     datarestart='처음부터'
-<<<<<<< HEAD
     if datacontent == '처음부터'or datacontent == '안녕하세요!':
-=======
-    if datacontent == '처음부터'or datacontent == '안녕하세요!':
->>>>>>> 4bc68bfeda11fa33574df075310e086d521d30eb
         choice_college = "단과대학을 선택해주세요"
         major=''
         usergrade=0
