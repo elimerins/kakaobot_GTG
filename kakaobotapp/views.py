@@ -60,7 +60,7 @@ def answer(request):
     global usergrade
 
     datarestart='처음부터'
-    if datacontent == '처음부터'or datacontent=='안녕하세요!':
+    if datacontent == '처음부터'or datacontent == '안녕하세요!':
         choice_college = "단과대학을 선택해주세요"
         major=''
         usergrade=0
@@ -80,7 +80,7 @@ def answer(request):
                     'IT대학',
                     '한의대학',
                     '예술대학',
-                    '약학대학'
+                    '약학대학',
                     '간호대학',
                     '의과대학',
                     '보건과학대학',
