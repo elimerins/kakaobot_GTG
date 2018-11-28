@@ -39,8 +39,13 @@ for maj_cd in maj_cd_list:
 for course in course_list:
     print(course)
 '''
-
-list=lecturealgo.generator(9,12,'미술·디자인학부(회화·조소)','1')
-print(str(list))
+for maj_cd in maj_cd_list:
+    for i in range(4):
+        list=lecturealgo.generator(9,12,maj_cd[1], str(i+1))
+        print(str(list))
+        list = lecturealgo.generator(13, 15, maj_cd[1], str(i + 1))
+        print(str(list))
+        list = lecturealgo.generator(16, 18, maj_cd[1], str(i + 1))
+        print(str(list))
 
 

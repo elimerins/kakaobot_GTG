@@ -24,16 +24,17 @@ resultList = []
 cohesion_checked_list = []
 
 def generator(min,max,major,choice_grade):
+    print(min,max,major+choice_grade)
     combination.clear()
     resultList.clear()
     cohesion_checked_list.clear()
     maj_cd=''
     grade = choice_grade
     for i in maj_cd_list:
-        print(i)
+        #print(i)
         if (i[1] == major):
             maj_cd = i[0]
-            print(maj_cd)
+            #print(maj_cd)
             break
             #print(maj_cd)
 
@@ -46,9 +47,11 @@ def generator(min,max,major,choice_grade):
     '''
     curs.execute(course_sql, (maj_cd, "%{}%".format(grade)))
     course_list = curs.fetchall()
-    print(course_list)
+    #print(course_list)
     if len(course_list)==0:
+
         return grade+"학년에 맞는 전공 과목이 없습니다 ㅜㅜ"
+
     else:
         shuffled_list = np.array(course_list)
         # print(shuffled_list)
@@ -63,6 +66,7 @@ def generator(min,max,major,choice_grade):
         list = PrintList()
         return list
 
+
 def Dup_func(combination):
     for comb in combination:
         Duplication_check(comb)
@@ -76,9 +80,9 @@ def MakeTimeTable(min_credit, max_credit, shuffled_list):
         try:
             f_lecs.append(shuffled_list[len(shuffled_list) - 1])
         except IndexError as e:
-            print("코드가 중간에 꼬였습니다 다시하세요 ㅜㅜ 학과를 못잡았나봅니다")
-            return "검색되는 전공 과목이 없습니다 다시 시도해주세요"
-        total_leccredit+=int(f_lecs[0][2])
+            return "전공 과목이 검색되지 않습니다"
+        else:
+            total_leccredit+=int(f_lecs[0][2])
         for lecture in shuffled_list:
             if (total_leccredit <min_credit):
                 if (Compare(lecture[1].split(','), lecture[0], f_lecs)):
@@ -87,14 +91,14 @@ def MakeTimeTable(min_credit, max_credit, shuffled_list):
             elif (total_leccredit == max_credit):
                 combination.append(copy.deepcopy(f_lecs))
                 f_lecs=np.array(f_lecs)
-                print(f_lecs)
-                print(total_leccredit)
+                #print(f_lecs)
+                #print(total_leccredit)
                 break
             elif (total_leccredit >= min_credit and total_leccredit <max_credit):
                 combination.append(copy.deepcopy(f_lecs))
                 f_lecs2 = np.array(f_lecs)
-                print(f_lecs2)
-                print(total_leccredit)
+                #print(f_lecs2)
+                #print(total_leccredit)
 
                 if (Compare(lecture[1].split(','), lecture[0], f_lecs)):
                     f_lecs.append(lecture)
@@ -103,8 +107,7 @@ def MakeTimeTable(min_credit, max_credit, shuffled_list):
                     continue
             else:
                 break
-        if i==rangenum-1:
-            if total_leccredit<min_credit:
+            if total_leccredit < min_credit:
                 combination.append(copy.deepcopy(f_lecs))
 
 
@@ -213,11 +216,11 @@ def PrintList():
     cohesion_dict_list = {}
     for i in range(len(cohesion_checked_list)):
         cohesion_dict_list[i] = cohesion_checked_list[i]
-    print('\n')
+
     print(cohesion_dict_list)
     sorted_list = sorted(cohesion_dict_list.items(), key=operator.itemgetter(1))
     print(sorted_list)
-    print('\n')
+
     '''
     for i in range(0, 10):
         print(sorted_list[i][0])
