@@ -247,8 +247,11 @@ def PrintList():
     print(sorted_list[0])
     print(np.array(resultList[0]))
     '''
+    npString=np.array(resultList[sorted_list[i][0]])
+    npString=npString[:,0:2]
 
-    resultString=str(np.array(resultList[sorted_list[i][0]]))
+    resultString=str(npString)
+    #resultString=str(np.array(resultList[sorted_list[i][0]]))
     #print(resultString)
     if len(sorted_list)==0:
         resultString='죄송합니다.\n맞는 조합이 없습니다.\n조건을 다시 설정해주세요'
